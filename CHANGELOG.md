@@ -1,5 +1,18 @@
 # Changelog
 
+## [v1.7.0](https://github.com/stevenschobert/metalsmith-sass/releases/tag/v1.7.0)
+
+_11/21/2019_
+
+- Enable support for Node.js version 12/13 by upgrading to [node-sass v4.13.0](https://github.com/sass/node-sass/releases/tag/v4.13.0) - thanks [@nickcolley](https://github.com/nickcolley).
+
+## [v1.6.0](https://github.com/stevenschobert/metalsmith-sass/releases/tag/v1.6.0)
+
+_01/20/2018_
+
+- Updated to [node-sass v4.11](https://github.com/sass/node-sass/releases/tag/v4.11.0).
+- Fixed performance issue with calling `toString()` on non-sass files. Thanks @crazy2be! #47 :tada:
+
 ## [v1.4.0](https://github.com/stevenschobert/metalsmith-sass/releases/tag/v1.4.0)
 
 _01/09/2017_
@@ -102,4 +115,3 @@ _06/09/2014_
 
 - Partials are now properly ignored (thanks [@dpisklov](https://github.com/dpisklov)!). Addresses #1 and #2.
 - Added an `outputDir` option. Can be used in combination with `Metalsmith.destination()` to control output paths for stylesheets.
-
