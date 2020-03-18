@@ -28,7 +28,7 @@
     "rimraf": "^2.5.4"
   },
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^2.6.3",
     "node-sass": "^4.13.0"
   }
 }
