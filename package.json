@@ -4,7 +4,9 @@
   "description": "Sass plugin for Metalsmith.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --harmony --reporter spec test/test.js"
+    "test": "mocha --harmony --reporter spec test/test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,8 @@
   },
   "dependencies": {
     "async": "^2.6.0",
-    "node-sass": "^4.13.0"
-  }
+    "node-sass": "^4.13.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
